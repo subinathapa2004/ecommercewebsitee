@@ -1,0 +1,148 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffeb3b;
+}
+
+
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 15px;
+  width: 220px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  color: #222;
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  color: #0072ff;
+  font-weight: bold;
+  margin: 5px 0 10px;
+}
+
+
+.product-card button {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.product-card button:hover {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  transform: scale(1.05);
+}
+
+
+.cart {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item p {
+  font-weight: 500;
+  color: #555;
+}
+
+.cart button {
+  background: #ff4081;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cart button:hover {
+  background: #e91e63;
+  transform: scale(1.05);
+}
+
+.cart h3 {
+  text-align: right;
+  margin-top: 20px;
+  color: #0072ff;
+}
